@@ -19,4 +19,9 @@ dist/
 # Reader-generated outputs
 output/
 outputs/
+# Fixed, authored ch18 reference answers only (not reader runs)
+!examples/ch18/reference/output/
+!examples/ch18/reference/output/actions.csv
+!examples/ch18/reference/output/report.md
+!examples/ch18/reference/output/README.md
 .DS_Store

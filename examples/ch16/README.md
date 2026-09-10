@@ -1,4 +1,4 @@
-# 第 3 章｜第一個任務：把散亂筆記變成可查核的行動清單｜配套
+# 第 16 章｜排程與通知：本機結果和訊息交付的差別｜配套
 
 Happy eBook Authors｜虛構教材素材；本頁不是章節書稿。
 
@@ -18,36 +18,32 @@ python3 -B -m unittest discover -s tests -v
 建立自己的全新副本（若同名已存在就停止；改新名稱並同步改 cd，不刪舊成果）：
 
 ```bash
-python3 -B scripts/prepare.py 3 "$HOME/hermes-workbook-03" &&
-cd "$HOME/hermes-workbook-03"
+python3 -B scripts/prepare.py 16 "$HOME/hermes-workbook-16" &&
+cd "$HOME/hermes-workbook-16"
 ```
 
 預期 `READY:` 與精確目的地；只複製以下起始檔，不複製參考答案或本配套 README：
 
-- `examples/first-task/notes.md`
+- `tasks.md`
 
 閱讀 [任務範本](tasks.md)，先在自己的文字編輯器逐段完成草稿；如要委派模型，須先完成書中模型環境與人工授權，並在已確認的新目錄啟動 `hermes`。套件與模型流程不包含在自動測試中。
 
 ## 預期產物
 
-output/action-items.md。生成前不預置這些成果。所有參考答案均為人工素材，不是模型快照。
+schedule-draft.md（未註冊）。生成前不預置這些成果。所有參考答案均為人工素材，不是模型快照。
 
 ## 正向測試
 
-亦可對照 [人工驗收基準](expected.md)；它不是模型實跑輸出。
-
-N1 三份摘要／小林／期限待確認；N2 阿青／2026-10-15；N3 提案未決議；N4 未指派且期限未知；N5 會議時間未知。
+只選 T02/T03，T03 負責人待確認，無日期；local、暫停、一次額度、時區與停止方式均有欄位。
 
 ## 負向測試
 
-將 N4 寫成阿青或套用 N2 日期即不通過；來源不存在應停止；已有 output/action-items.md 應停止且原檔雜湊不變。
+加入 T01、補日期、把 local 說成已寄 Telegram 均不通過。用量、排程 ID 不可預填假的。
 
 變異只在新副本做；自動 suite 使用 TemporaryDirectory，結束自動清理；正式來源前後均由固定 SHA-256 清單核對。重做使用新一期目錄，不清空或覆寫舊成果。
 
 ## 未驗證界線
 
-主編另提供真實 Hermes 子代理／GPT-6 Astra 首次產檔、父代理語義回讀與來源雜湊通過的去識別摘要。已有輸出／缺來源負向只驗 Python guard，未用獨立新模型重跑；完整 CLI 與乾淨安裝仍未驗證。
-
-素材雜湊與語法檢查不是語義驗收；人工逐項對照來源與授權。本套 Python suite 不做模型端到端；補充實測範圍以上述主編證據為限，不能推廣為所有代理都遵守停止條件或沒有外部副作用。第 14 章 HTTP 通過不代表瀏覽器保存／視覺已測；第 16／17 章不建立 profile、排程、gateway 或 MCP 連線。原生 Windows、乾淨 WSL 安裝、macOS 與其他 Linux 未驗證。
+素材雜湊與語法檢查不是語義驗收；人工逐項對照來源與授權。無模型端到端測試，不能宣稱代理有遵守停止條件、真實寫檔或外部無副作用。第 14 章 HTTP 通過不代表瀏覽器保存／視覺已測；第 16／17 章不建立 profile、排程、gateway 或 MCP 連線。原生 Windows、乾淨 WSL 安裝、macOS 與其他 Linux 未驗證。
 
 [任務範本](tasks.md)｜[全書索引](../../README.md)｜[版本與測試範圍](../../docs/compatibility.md)

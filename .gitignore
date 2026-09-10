@@ -1,0 +1,22 @@
+# Secrets and local state
+.env
+.env.*
+!.env.example
+.hermes/
+*.pem
+*.key
+__pycache__/
+.venv/
+# Private publishing sources and outputs
+manuscript/
+manuscripts/
+private/
+covers/
+dist/
+*.epub
+*.pdf
+*.docx
+# Reader-generated outputs
+output/
+outputs/
+.DS_Store

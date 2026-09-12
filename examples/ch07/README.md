@@ -42,6 +42,16 @@ v1 僅 S1、S2；v2 為完整 S1–S4 快照且各一次，S2 依賴 S1，S3 未
 
 變異只在新副本做；自動 suite 使用 TemporaryDirectory，結束自動清理；正式來源前後均由固定 SHA-256 清單核對。重做使用新一期目錄，不清空或覆寫舊成果。
 
+## 人工交接與延伸驗收
+
+交接須分來源／產物版本、自查與人工驗收（確認者、範圍、時間）、S3 業務資訊應答角色、v2 修補授權人；未知保持待指定。
+
+S5 延伸由人明確指定 sources-s5.md → actions-s5.md，保留原來源、v1、v2；新檔存在即 STOP。先列新增 S5 的差異，批准交接更新後才產出完整 S1–S5 快照；S5 仍是待討論，不新增採購承諾。舊驗收不涵蓋新來源。
+
+重試前人定最小步驟、人工時間與次數上限；模型用量不可見標未知，不當自動限額。同錯誤再現停止，handoff 保留缺口及人工下一步；逾時僅查狀態，不盲目再寫。
+
+共用欄位：[任務授權](../../templates/management/task-authorization.md)、[驗收交接](../../templates/management/acceptance-handoff.md)、[問題變更](../../templates/management/issues-changes.md)、[採用維運](../../templates/management/adoption-operations.md)；[準備說明](../../docs/practice-setup.md)。以上是練習檢核，不是已取得的真實核准。
+
 ## 未驗證界線
 
 素材雜湊與語法檢查不是語義驗收；人工逐項對照來源與授權。無模型端到端測試，不能宣稱代理有遵守停止條件、真實寫檔或外部無副作用。第 14 章 HTTP 通過不代表瀏覽器保存／視覺已測；第 16／17 章不建立 profile、排程、gateway 或 MCP 連線。原生 Windows、乾淨 WSL 安裝、macOS 與其他 Linux 未驗證。

@@ -54,6 +54,16 @@ app.py 印出 林青｜2 位；unittest 實際執行 1 項；空姓名零席次�
 
 變異只在新副本做；自動 suite 使用 TemporaryDirectory，結束自動清理；正式來源前後均由固定 SHA-256 清單核對。重做使用新一期目錄，不清空或覆寫舊成果。
 
+## 人工交接與延伸驗收
+
+基準須記來源版、Python 實際版本、檢查時點、命令／退出狀態、test_trim_name 範圍與未驗範圍，並逐字核對四檔未變；真實專案已有 Git 才記提交及差異，不為教材初始化。來源或環境變動重建相關基準。
+
+接手選項只比較維持現況、回傳提示、丟例外，列展示入口可能影響、需補測試與待確認者（待指定）。本例未看到其他呼叫端，不宣稱全系統相容。
+
+讀懂純函式及測試副作用可續盤點；遇不明安裝、憑證、資料庫寫入或不能理解的副作用即 STOP、不執行，交付已讀、未讀高風險區域及需技術接手事項。人定投入上限，到限交受阻報告。只新增 onboarding.md，不改四檔；第 13 章另案。
+
+共用欄位：[任務授權](../../templates/management/task-authorization.md)、[驗收交接](../../templates/management/acceptance-handoff.md)、[問題變更](../../templates/management/issues-changes.md)、[採用維運](../../templates/management/adoption-operations.md)；[準備說明](../../docs/practice-setup.md)。以上是練習檢核，不是已取得的真實核准。
+
 ## 未驗證界線
 
 素材雜湊與語法檢查不是語義驗收；人工逐項對照來源與授權。無模型端到端測試，不能宣稱代理有遵守停止條件、真實寫檔或外部無副作用。第 14 章 HTTP 通過不代表瀏覽器保存／視覺已測；第 16／17 章不建立 profile、排程、gateway 或 MCP 連線。原生 Windows、乾淨 WSL 安裝、macOS 與其他 Linux 未驗證。

@@ -30,6 +30,10 @@ cd "$HOME/hermes-workbook-15"
 
 在新練習目錄執行 `python3 -B verify_source.py`，預期超收 {'W02': 2} 與缺負責人 ['W03']；這只驗來源與計算，不讀懂三份自然語言報告。
 
+## 章別交付紀錄
+
+使用 [管理實作附頁](management-lab.md) 填寫本次批准、驗收與限制；共用四模板由該頁連結，不由 prepare 預填。未測欄不能抄作者結果。
+
 ## 預期產物
 
 capacity.md、ownership.md、final.md。生成前不預置這些成果。所有參考答案均為人工素材，不是模型快照。

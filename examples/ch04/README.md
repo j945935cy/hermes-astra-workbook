@@ -2,9 +2,11 @@
 
 Happy eBook Authors｜虛構教材素材；本頁不是章節書稿。
 
+本次增補的 [內容批准範圍、追加需求與部分交付](review-exercises.md) 是人工練習，不是批准或實測紀錄；新頁待本版整合發布固定提交。
+
 ## 起始狀態
 
-Windows＋WSL2／Bash、Python 3.11 以上。先將終端機切到此 repo 根目錄（包含 examples 與 scripts）。不要在配套 starter 裡做產出；任務輸出起初不得存在。無須模型帳號即可跑下列離線檢查。模型工作另可能計費。
+Windows＋WSL2／Bash、Python 3.11 以上；[共用準備卡](../../docs/practice-setup.md)說明 READY／STOP 與路線選擇。從 repo 根目錄準備，在新練習目錄執行與驗收；來源缺失、輸出已存在或切換失敗就停，不覆寫。離線檢查不需要模型帳號；模型試跑另可能計費。
 
 ## 精確命令
 
@@ -18,8 +20,8 @@ python3 -B -m unittest discover -s tests -v
 建立自己的全新副本（若同名已存在就停止；改新名稱並同步改 cd，不刪舊成果）：
 
 ```bash
-python3 -B scripts/prepare.py 4 "$HOME/hermes-workbook-04" &&
-cd "$HOME/hermes-workbook-04"
+python3 -B scripts/prepare.py 4 "$HOME/hermes-support-lab" &&
+cd "$HOME/hermes-support-lab"
 ```
 
 預期 `READY:` 與精確目的地；只複製以下起始檔，不複製參考答案或本配套 README：
@@ -44,6 +46,6 @@ support-draft.md。生成前不預置這些成果。所有參考答案均為人�
 
 ## 未驗證界線
 
-素材雜湊與語法檢查不是語義驗收；人工逐項對照來源與授權。無模型端到端測試，不能宣稱代理有遵守停止條件、真實寫檔或外部無副作用。第 14 章 HTTP 通過不代表瀏覽器保存／視覺已測；第 16／17 章不建立 profile、排程、gateway 或 MCP 連線。原生 Windows、乾淨 WSL 安裝、macOS 與其他 Linux 未驗證。
+素材雜湊與語法檢查不能代替人工語義驗收。未實跑的模型、停止行為與外部整合不宣稱通過；完整平台限制見[版本與測試範圍](../../docs/compatibility.md)。
 
 [任務範本](tasks.md)｜[全書索引](../../README.md)｜[版本與測試範圍](../../docs/compatibility.md)

@@ -2,9 +2,11 @@
 
 Happy eBook Authors｜虛構教材素材；本頁不是章節書稿。
 
+本次增補的 [完整短規則試驗、維護與接手](rule-trial.md) 是人工練習，不是批准或實測紀錄；新頁待本版整合發布固定提交。
+
 ## 起始狀態
 
-Windows＋WSL2／Bash、Python 3.11 以上。先將終端機切到此 repo 根目錄（包含 examples 與 scripts）。不要在配套 starter 裡做產出；任務輸出起初不得存在。無須模型帳號即可跑下列離線檢查。模型工作另可能計費。
+Windows＋WSL2／Bash、Python 3.11 以上；[共用準備卡](../../docs/practice-setup.md)說明 READY／STOP 與路線選擇。從 repo 根目錄準備，在新練習目錄執行與驗收；來源缺失、輸出已存在或切換失敗就停，不覆寫。離線檢查不需要模型帳號；模型試跑另可能計費。
 
 教學用 [AGENTS.md](AGENTS.md) 已經作者明確授權提供。使用前先閱讀；prepare.py 只複製至新練習目錄，不安裝全域規則。
 
@@ -29,7 +31,7 @@ python3 -B scripts/prepare.py 6 "$HOME/hermes-rules-practice"
 
 ## 預期產物
 
-專案規則審閱紀錄、技能草稿（不保存到 Hermes）。生成前不預置這些成果。所有參考答案均為人工素材，不是模型快照。
+專案規則審閱紀錄、技能草稿（不保存到 Hermes）；選做 rule-trial.md 才新增 `rule-result.md`，該模型路徑仍待實跑。生成前不預置這些成果。所有參考答案均為人工素材，不是模型快照。
 
 ## 正向測試
 
@@ -43,6 +45,6 @@ python3 -B scripts/prepare.py 6 "$HOME/hermes-rules-practice"
 
 ## 未驗證界線
 
-素材雜湊與語法檢查不是語義驗收；人工逐項對照來源與授權。無模型端到端測試，不能宣稱代理有遵守停止條件、真實寫檔或外部無副作用。第 14 章 HTTP 通過不代表瀏覽器保存／視覺已測；第 16／17 章不建立 profile、排程、gateway 或 MCP 連線。原生 Windows、乾淨 WSL 安裝、macOS 與其他 Linux 未驗證。
+素材雜湊與語法檢查不能代替人工語義驗收。未實跑的模型、停止行為與外部整合不宣稱通過；完整平台限制見[版本與測試範圍](../../docs/compatibility.md)。
 
 [任務範本](tasks.md)｜[全書索引](../../README.md)｜[版本與測試範圍](../../docs/compatibility.md)

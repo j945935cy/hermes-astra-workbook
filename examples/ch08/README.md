@@ -43,6 +43,16 @@ F1 容量 40、CSV；F2 僅建立者可匯出；F4 35 人且可事前匯出；F3
 
 變異只在新副本做；自動 suite 使用 TemporaryDirectory，結束自動清理；正式來源前後均由固定 SHA-256 清單核對。重做使用新一期目錄，不清空或覆寫舊成果。
 
+## 人工交接與延伸驗收
+
+decision.md 分暫定選案、假資料演練與真實資料試辦。政策及使用授權未知時，只能用假資料檢查流程或先詢問，不能送出真實報名個資；政策確認角色待指定，答案不預設合格。
+
+F4 匯出安排須由建立者確認交付時點，協作者回覆可讀且符合報到用途；建立者無法交付或人數改變即暫停重評。50 人延伸保留舊建議，另記新來源版本與「容量結論失效，角色限制仍有效」。
+
+questions.md 以正文支持必答題、或列阻擋與可接手詢問角色為交付門檻；人定搜尋上限到限便交暫定／受阻版，不以來源篇數代替品質。
+
+共用欄位：[任務授權](../../templates/management/task-authorization.md)、[驗收交接](../../templates/management/acceptance-handoff.md)、[問題變更](../../templates/management/issues-changes.md)、[採用維運](../../templates/management/adoption-operations.md)；[準備說明](../../docs/practice-setup.md)。以上是練習檢核，不是已取得的真實核准。
+
 ## 未驗證界線
 
 素材雜湊與語法檢查不是語義驗收；人工逐項對照來源與授權。無模型端到端測試，不能宣稱代理有遵守停止條件、真實寫檔或外部無副作用。第 14 章 HTTP 通過不代表瀏覽器保存／視覺已測；第 16／17 章不建立 profile、排程、gateway 或 MCP 連線。原生 Windows、乾淨 WSL 安裝、macOS 與其他 Linux 未驗證。

@@ -2,17 +2,17 @@
 
 Happy eBook Authors｜Happy eBook
 
-《讓 AI 真正替你工作》的公開配套候選，提供虛構素材、任務範本、驗收器與參考程式；不是 Hermes 或 OpenAI 官方專案。不含章節書稿。
+《讓 AI 真正替你工作》的公開實作配套，提供虛構素材、任務範本、驗收器與參考程式；不是 Hermes 或 OpenAI 官方專案。不含章節書稿。
 
 ## 目前狀態
 
 已提供 01–18 章對照索引與可公開素材；ch06／ch12 教學用 AGENTS.md 已經作者明確授權補齊。第 3 章保留 first-task 路徑。素材與確定性測試已驗證，不代表所有模型及外部整合流程已測完。
 
-Python 標準函式庫測試通過；第 3 章有真實子代理產檔與父代理回讀證據，第 14 章有主編真實本機瀏覽器表單事件證據。這些不等於完整 CLI、乾淨 Windows 安裝或所有模型流程已驗證。詳見 [兼容狀態](docs/compatibility.md)。
+Python 標準函式庫測試通過；第 3 章有真實子代理產檔與父代理回讀證據，第 14 章有主編真實本機瀏覽器表單事件證據，第 18 章第一期另有真實 Astra CLI 正常與兩項停止測試。這些不等於乾淨 Windows 安裝或所有模型流程已驗證。詳見 [兼容狀態](docs/compatibility.md)。
 
 ## 起始狀態與精確命令
 
-下載 Code → Download ZIP 並解壓，或使用你已有的 repo。以包含 examples、scripts 的根目錄為目前工作目錄。WSL2／Bash、Python 3.11 以上；不需要模型帳號即可做離線驗證，不裝全域套件。
+本校閱版請使用 [review-v4 固定 ZIP](https://github.com/j945935cy/hermes-astra-workbook/archive/refs/tags/review-v4.zip) 並解壓；若標籤尚未存在，表示新版仍在驗收，不要改用舊版本冒充。Code → Download ZIP 取得的是持續變動的 main。以包含 examples、scripts 的根目錄為目前工作目錄。WSL2／Bash、Python 3.11 以上；不需要模型帳號即可做離線驗證，不裝全域套件。
 
 ```bash
 python3 --version
@@ -21,6 +21,17 @@ python3 -B -m unittest discover -s tests -v
 ```
 
 預期資產檢查 PASS、16 項 unittest 通過；其中第 10 章另跑 30 個驗收器情境。這些命令不產生模型答案。各章 README 有自己的起始狀態、prepare.py 複製命令、產物與正負向測試；永遠在新副本練習，不在 starter 目錄改寫。
+
+新增共用入口：[操作卡](docs/practice-setup.md)、[任務與授權](templates/management/task-authorization.md)、[驗收與交接](templates/management/acceptance-handoff.md)、[未決與變更](templates/management/issues-changes.md)、[採用與維運](templates/management/adoption-operations.md)。第 18 章另有 [第二期受控素材](examples/ch18/period2/README.md)。
+
+補充測試（同樣不呼叫模型）：
+
+```bash
+python3 -B -m unittest discover -s examples/ch13 -p test_regressions.py -v
+python3 -B -m unittest discover -s examples/ch18/period2 -p test_period2.py -v
+```
+
+分別預期 1 項回歸測試（內含四種錯誤實作）及 12 項第二期測試通過。
 
 ## 章節索引
 

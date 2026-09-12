@@ -30,6 +30,10 @@ cd "$HOME/hermes-workbook-13"
 
 在新練習目錄先執行 `python3 -B -m unittest -v`，預期非零且 900 != 810；這是刻意紅燈。經授權修改 fee.py 後，執行 `python3 -B -m unittest -v` 與 `python3 -B acceptance.py`，兩者均須退出 0。不用 `-O`（會略過 assert）。自動 suite 在臨時副本完成原樣參考版替換與變異檢查，不替讀者覆寫正式檔。
 
+## 章別交付紀錄
+
+使用 [管理實作附頁](management-lab.md) 填寫本次批准、驗收與限制；共用四模板由該頁連結，不由 prepare 預填。未測欄不能抄作者結果。完整必要回歸參考另見 `reference/test_fee.py`；原 starter 的刻意紅燈不變。
+
 ## 預期產物
 
 修改後 fee.py 與實際測試紀錄；reference/fee.py 僅供對照。生成前不預置這些成果。所有參考答案均為人工素材，不是模型快照。

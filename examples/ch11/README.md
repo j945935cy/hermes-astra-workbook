@@ -43,6 +43,16 @@ C1–C8 有依據，日期時區名額正確；正文與內部待補分區；仍
 
 變異只在新副本做；自動 suite 使用 TemporaryDirectory，結束自動清理；正式來源前後均由固定 SHA-256 清單核對。重做使用新一期目錄，不清空或覆寫舊成果。
 
+## 人工交接與延伸驗收
+
+先備只需理解第 10 章指定驗收短節，不需完整 Python。manifest 將檢查進度、範圍、使用／公開權限分開：draft-v2.md 可已核對事實但仍不可公開（C8），README 同步限制。
+
+review 問題編號追到 changes、v2 修文與複核；已修待複核不等於結案。簽收綁版本、確認者、時間、依據，收件／內容審查／發布授權分欄，未回覆不自簽；舊版簽收不自動涵蓋新版。
+
+小稿單人審可合成分區審查單，仍找得到來源、最新版、未決及權限；多人或多資產採完整包。風格輪次與投入時間先由人定，到限交待決版，阻擋發布項不因到限放行。
+
+共用欄位：[任務授權](../../templates/management/task-authorization.md)、[驗收交接](../../templates/management/acceptance-handoff.md)、[問題變更](../../templates/management/issues-changes.md)、[採用維運](../../templates/management/adoption-operations.md)；[準備說明](../../docs/practice-setup.md)。以上是練習檢核，不是已取得的真實核准。
+
 ## 未驗證界線
 
 素材雜湊與語法檢查不是語義驗收；人工逐項對照來源與授權。無模型端到端測試，不能宣稱代理有遵守停止條件、真實寫檔或外部無副作用。第 14 章 HTTP 通過不代表瀏覽器保存／視覺已測；第 16／17 章不建立 profile、排程、gateway 或 MCP 連線。原生 Windows、乾淨 WSL 安裝、macOS 與其他 Linux 未驗證。

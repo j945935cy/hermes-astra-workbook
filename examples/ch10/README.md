@@ -33,7 +33,7 @@ cd "$HOME/hermes-workbook-10"
 
 ## 預期產物
 
-preview.md、經確認才建立的 clean_registrations.py、clean.csv、duplicates.csv、exceptions.csv、summary.md。生成前不預置這些成果。所有參考答案均為人工素材，不是模型快照。
+preview.md、經確認才建立的 clean_registrations.py、clean.csv、duplicates.csv、exceptions.csv、summary.md，以及人工作業交接 operations.md。生成前不預置這些成果。所有參考答案均為人工素材，不是模型快照。
 
 ## 正向測試
 
@@ -44,6 +44,16 @@ preview.md、經確認才建立的 clean_registrations.py、clean.csv、duplicat
 R9 擴充使用副本與 --r9：有效組 R1/R2/R9 全衝突；缺 summary、錯欄位、修剪 raw_email 都拒絕。
 
 變異只在新副本做；自動 suite 使用 TemporaryDirectory，結束自動清理；正式來源前後均由固定 SHA-256 清單核對。重做使用新一期目錄，不清空或覆寫舊成果。
+
+## 人工交接與延伸驗收
+
+完整原碼在 [verify.py](starter/verify.py)、[test_verify.py](starter/test_verify.py)；不需抄寫即可依上方命令跑正負測。故意錯誤的 exit=1 被測試程式判為 OK 是預期拒絕，不要改成通過。
+
+另由人建立 operations.md，記本次用途、clean 可用範圍／核准狀態與例外接手：R4 缺信箱、R5 席次格式、R6/R8 範圍未決。角色待指定、未答保持未答；exceptions 不代表取消參加資格，是否先交部分名單由資料擁有人決定。固定 summary 與 schema 不加管理欄。
+
+只更正 R5 是經資料擁有人確認的新來源批次，規則可仍 v1；核准自然語言轉換表才另編規則 v2。兩案保留舊來源／輸出與核准依據，記影響紀錄及全批重驗結果。現有驗收器只驗固定八列與 R9，不支援任意新來源／新版規則；延伸另訂檢查，不刪舊檢查。
+
+共用欄位：[任務授權](../../templates/management/task-authorization.md)、[驗收交接](../../templates/management/acceptance-handoff.md)、[問題變更](../../templates/management/issues-changes.md)、[採用維運](../../templates/management/adoption-operations.md)；[準備說明](../../docs/practice-setup.md)。以上是練習檢核，不是已取得的真實核准。
 
 ## 未驗證界線
 

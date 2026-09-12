@@ -42,6 +42,16 @@ P2 套入 2026-10-16、P4 指派承辦、P6 變撰稿期限均不通過；不能
 
 變異只在新副本做；自動 suite 使用 TemporaryDirectory，結束自動清理；正式來源前後均由固定 SHA-256 清單核對。重做使用新一期目錄，不清空或覆寫舊成果。
 
+## 人工交接與延伸驗收
+
+未決欄位依 tasks.md，回覆只答核准日期而工作天定義未答時，P2 維持部分未決、有效期限待確認；追問日期與任務期限分開。所有無來源的具名角色待指定。
+
+P1 可同時草稿已收、是否符合交付規格待核、策展人核准未完成；P2 不能只因檔案存在就起算。
+
+P3 明確核准後在經授權的新任務版本沿用同一編號，保留原文、答覆者權限／日期／依據、舊狀態與影響，只有一個現行狀態；「應該照舊」仍未決。不建立外部任務。
+
+共用欄位：[任務授權](../../templates/management/task-authorization.md)、[驗收交接](../../templates/management/acceptance-handoff.md)、[問題變更](../../templates/management/issues-changes.md)、[採用維運](../../templates/management/adoption-operations.md)；[準備說明](../../docs/practice-setup.md)。以上是練習檢核，不是已取得的真實核准。
+
 ## 未驗證界線
 
 素材雜湊與語法檢查不是語義驗收；人工逐項對照來源與授權。無模型端到端測試，不能宣稱代理有遵守停止條件、真實寫檔或外部無副作用。第 14 章 HTTP 通過不代表瀏覽器保存／視覺已測；第 16／17 章不建立 profile、排程、gateway 或 MCP 連線。原生 Windows、乾淨 WSL 安裝、macOS 與其他 Linux 未驗證。

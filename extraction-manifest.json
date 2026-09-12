@@ -22,6 +22,48 @@
   ],
   "assets": [
     {
+      "chapter": null,
+      "path": "docs/compatibility.md",
+      "role": "support",
+      "target": null,
+      "sha256": "962949008503608ce35be7e3a7681c909913419d89b3e9a4efb595132b4f795c"
+    },
+    {
+      "chapter": null,
+      "path": "docs/faq.md",
+      "role": "support",
+      "target": null,
+      "sha256": "34d07fdb8ed14a8331cbdfb098220133d34210a750fc283967531d2d12a7fa8a"
+    },
+    {
+      "chapter": null,
+      "path": "docs/getting-started.md",
+      "role": "support",
+      "target": null,
+      "sha256": "9b10e68989894de909d30a92878e918dc0141c986500715fc669ae8888317174"
+    },
+    {
+      "chapter": null,
+      "path": "docs/practice-setup.md",
+      "role": "support",
+      "target": null,
+      "sha256": "0b7f2185756e562afe1a2c75df6037f5dc25626859ff5e17ef2898b5edfddc54"
+    },
+    {
+      "chapter": 4,
+      "path": "examples/ch04/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "dc0894863ef7f27c45a21d62388b394e9c7f6b957cf1ed3315b62a81033c5ccd"
+    },
+    {
+      "chapter": 4,
+      "path": "examples/ch04/review-exercises.md",
+      "role": "support",
+      "target": null,
+      "sha256": "cfd2a354d3a2011a385172f590fdc4217d616d3e09613bb216b77955110e6ce8"
+    },
+    {
       "chapter": 4,
       "path": "examples/ch04/starter/support-notes.md",
       "role": "starter",
@@ -29,11 +71,67 @@
       "sha256": "fea29a5226d1feeadf763cf130a32b4f1a63472c8440c87499957ad294e67561"
     },
     {
+      "chapter": 4,
+      "path": "examples/ch04/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "fc2db0cf4d1ac1606305fdc8d599cdd5093d52baee27099588596b4f64d3a34d"
+    },
+    {
+      "chapter": 6,
+      "path": "examples/ch06/AGENTS.md",
+      "role": "starter",
+      "target": "AGENTS.md",
+      "sha256": "4182e2b5ecc9e503ad389fbe93e83df45dc8eebeecc062af1d84c6ccd55b25a1"
+    },
+    {
+      "chapter": 6,
+      "path": "examples/ch06/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "e07a91a8f2a2d074ed05d9fbb25337c06765cc55f6f45f504b91726d5e6acfcf"
+    },
+    {
+      "chapter": 6,
+      "path": "examples/ch06/rule-trial.md",
+      "role": "support",
+      "target": null,
+      "sha256": "32b73a91e6154e383f1ecc120d03424b97cc10c83fe26f3fa9d4c58d7bec586d"
+    },
+    {
+      "chapter": 6,
+      "path": "examples/ch06/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "4a6a8bdcbca585c7748d92c3c988bbbda56d2ffe14226b67fa761cd06d48e6f4"
+    },
+    {
+      "chapter": 7,
+      "path": "examples/ch07/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "cff4b38f151a32bec59ee3655e014529f472aa1606f979b94a2e16eadb6a8827"
+    },
+    {
       "chapter": 7,
       "path": "examples/ch07/starter/sources.md",
       "role": "starter",
       "target": "sources.md",
       "sha256": "a0093a081e0705d7f9be33ef8abe0e58820332f1a261683fab0bcd09e59b8bcd"
+    },
+    {
+      "chapter": 7,
+      "path": "examples/ch07/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "1f7edbcc49ebdb11b560ec69834e8cb02c617ebb5ea163d798d7bba63221aa28"
+    },
+    {
+      "chapter": 8,
+      "path": "examples/ch08/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "557dea8a6d211658c5532a474d07deafb7c368b84a62862d5dcca1aacb6f1553"
     },
     {
       "chapter": 8,
@@ -50,11 +148,46 @@
       "sha256": "376f55f627c30891869f78ee7b15f41e60aa03b4d4ed9a967867732ea0150d46"
     },
     {
+      "chapter": 8,
+      "path": "examples/ch08/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "571425c23633494e04522a67512508eed7faf5c77bfb7b5eac12ee2090153184"
+    },
+    {
+      "chapter": 9,
+      "path": "examples/ch09/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "90b788e69cc7e232bce0c6ba13a512b186ae188b13415c845db90b0d040a01f4"
+    },
+    {
       "chapter": 9,
       "path": "examples/ch09/starter/memo.md",
       "role": "starter",
       "target": "memo.md",
       "sha256": "468739637dfd2546a7a00ef504f6bf66a1b948194d313a1b94e77428f79c1bfe"
+    },
+    {
+      "chapter": 9,
+      "path": "examples/ch09/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "ac38d8691b724a69097639627fd62e57bca63eef20a4ed0d4ccd798c4ea63f20"
+    },
+    {
+      "chapter": 10,
+      "path": "examples/ch10/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "65b3014ea6c719a38ae12bebad62ae02eb0a0cfcb24b797cfb6f3d05e94235e6"
+    },
+    {
+      "chapter": 10,
+      "path": "examples/ch10/reference/summary.md",
+      "role": "reference",
+      "target": "summary.md",
+      "sha256": "3f434a6d5cab3df0ad6fa2015b8b411cb5c05faa42835af49e51bff06c31da6e"
     },
     {
       "chapter": 10,
@@ -65,10 +198,10 @@
     },
     {
       "chapter": 10,
-      "path": "examples/ch10/starter/verify.py",
+      "path": "examples/ch10/starter/rules.md",
       "role": "starter",
-      "target": "verify.py",
-      "sha256": "ecbc0a53388a7c58a10308eddb844a7e528574f112e2b0e1694b6ac441c784f8"
+      "target": "rules.md",
+      "sha256": "0900440a9965b5f66ea90ffff7a7f2a0d829ceb168bbca725c129f2dd4b804da"
     },
     {
       "chapter": 10,
@@ -76,6 +209,34 @@
       "role": "starter",
       "target": "test_verify.py",
       "sha256": "e80ece3af671b070427625751c77f210969371f4ca3dd2e17dac284e6c977858"
+    },
+    {
+      "chapter": 10,
+      "path": "examples/ch10/starter/verify.py",
+      "role": "starter",
+      "target": "verify.py",
+      "sha256": "ecbc0a53388a7c58a10308eddb844a7e528574f112e2b0e1694b6ac441c784f8"
+    },
+    {
+      "chapter": 10,
+      "path": "examples/ch10/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "62c55df7ba5daeb48ce71f92d818d587ebfe73191be74b6a40e8e52b8961fa54"
+    },
+    {
+      "chapter": 11,
+      "path": "examples/ch11/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "fa58bc38eaa72497b3bef9b2712b943fd9e4306de1935434085dc0184c8edbde"
+    },
+    {
+      "chapter": 11,
+      "path": "examples/ch11/starter/editorial.md",
+      "role": "starter",
+      "target": "editorial.md",
+      "sha256": "5e148745d23c2fd480cfe3e77c0b85386baedc2b74acfb474f477be56bd21634"
     },
     {
       "chapter": 11,
@@ -86,10 +247,24 @@
     },
     {
       "chapter": 11,
-      "path": "examples/ch11/starter/editorial.md",
+      "path": "examples/ch11/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "903aebd307318d375a6beb6e829f433bc9b10f7a99abb49fb3c11b8b2f3016c2"
+    },
+    {
+      "chapter": 12,
+      "path": "examples/ch12/AGENTS.md",
       "role": "starter",
-      "target": "editorial.md",
-      "sha256": "5e148745d23c2fd480cfe3e77c0b85386baedc2b74acfb474f477be56bd21634"
+      "target": "AGENTS.md",
+      "sha256": "071200f15c1defe319aa1dfecd6cf25c34e2989fc2bda2f7d15e9c11698d5582"
+    },
+    {
+      "chapter": 12,
+      "path": "examples/ch12/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "dbbeaa610703dfa8a3ad22117950d47c87af74dca62e3931503c6339f3b25f16"
     },
     {
       "chapter": 12,
@@ -113,6 +288,48 @@
       "sha256": "0e39a9aad1831975bcb2f31ee3420a63182bdf7dfbc3ad71d3298cad1512a751"
     },
     {
+      "chapter": 12,
+      "path": "examples/ch12/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "9092d7eea424695fd09c3ffda847ec17c3e858ffb4b097585da865c6ac004505"
+    },
+    {
+      "chapter": 13,
+      "path": "examples/ch13/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "28a2688f476307b0592886e21949aa2752a6dfd4d967b9f5321e59b8883b34ef"
+    },
+    {
+      "chapter": 13,
+      "path": "examples/ch13/management-lab.md",
+      "role": "support",
+      "target": null,
+      "sha256": "08662933bb5c0263d394fea06f6f2c53fa9aa4929f21430823e4f4744b0d0c6b"
+    },
+    {
+      "chapter": 13,
+      "path": "examples/ch13/reference/fee.py",
+      "role": "reference",
+      "target": "fee.py",
+      "sha256": "dd8e763cdf77ff30d9baf448a6009a9013834756d3c65d70428d7765759ac19f"
+    },
+    {
+      "chapter": 13,
+      "path": "examples/ch13/reference/test_fee.py",
+      "role": "support",
+      "target": null,
+      "sha256": "a1cac9e597ff081bbd4ade43cfb9d5f81bb89242caa88be5d728aa0aee555f66"
+    },
+    {
+      "chapter": 13,
+      "path": "examples/ch13/starter/acceptance.py",
+      "role": "starter",
+      "target": "acceptance.py",
+      "sha256": "0fbd7abdd726168cd6b00d2a0ebd5932a2a0085256cc74542d2046f5f87b585a"
+    },
+    {
       "chapter": 13,
       "path": "examples/ch13/starter/fee.py",
       "role": "starter",
@@ -128,10 +345,38 @@
     },
     {
       "chapter": 13,
-      "path": "examples/ch13/starter/acceptance.py",
-      "role": "starter",
-      "target": "acceptance.py",
-      "sha256": "0fbd7abdd726168cd6b00d2a0ebd5932a2a0085256cc74542d2046f5f87b585a"
+      "path": "examples/ch13/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "26a182a0952c6bedcc5f03d88aa4d09faa9c9e05342627c1cfd752c54917b317"
+    },
+    {
+      "chapter": 13,
+      "path": "examples/ch13/test_regressions.py",
+      "role": "support",
+      "target": null,
+      "sha256": "12972a006c1c9996121fe51d27a8ebf73b62a764371a5126798d8ef25b31004a"
+    },
+    {
+      "chapter": 13,
+      "path": "examples/ch13/verification.md",
+      "role": "support",
+      "target": null,
+      "sha256": "b6c3a339790be6b27a872c30a745a7a38ef2f45890836e23e91abc71c63affa5"
+    },
+    {
+      "chapter": 14,
+      "path": "examples/ch14/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "9b94fd0b4b3b6474b4e5a32bab0843ff41956803dfb279ea660e90ad9b7e30c6"
+    },
+    {
+      "chapter": 14,
+      "path": "examples/ch14/management-lab.md",
+      "role": "support",
+      "target": null,
+      "sha256": "9139a641cf192f5d145199e6218e396d77d45d9ea2131fdef254477731da48ed"
     },
     {
       "chapter": 14,
@@ -141,11 +386,25 @@
       "sha256": "7b208a85b977c6bb4985e700a0a0885c87332c75fd13094d5551e11c4572babe"
     },
     {
+      "chapter": 14,
+      "path": "examples/ch14/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "e0dd09663a604618867102e5a9b134a7a1e902e8b2738d7e06b728845f82033a"
+    },
+    {
       "chapter": 15,
-      "path": "examples/ch15/starter/sessions.csv",
-      "role": "starter",
-      "target": "sessions.csv",
-      "sha256": "2f9952a95057c5e0a2f72ddedbcb58e39ca1fa81d556dc437763a2ad30072de7"
+      "path": "examples/ch15/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "3b839c01e4e2bbf5ae6c82c0f5a30f41d00782afba2f5b379ab8624742981246"
+    },
+    {
+      "chapter": 15,
+      "path": "examples/ch15/management-lab.md",
+      "role": "support",
+      "target": null,
+      "sha256": "26cfc40f12fea9d175897f5b91a41ed4d3835425746b506cf6cc39afc7afc042"
     },
     {
       "chapter": 15,
@@ -156,10 +415,38 @@
     },
     {
       "chapter": 15,
+      "path": "examples/ch15/starter/sessions.csv",
+      "role": "starter",
+      "target": "sessions.csv",
+      "sha256": "2f9952a95057c5e0a2f72ddedbcb58e39ca1fa81d556dc437763a2ad30072de7"
+    },
+    {
+      "chapter": 15,
       "path": "examples/ch15/starter/verify_source.py",
       "role": "starter",
       "target": "verify_source.py",
       "sha256": "e625edcbafaea81b9a119f40f2f3fa356b9693a45899956f5afdc86ccc5cd694"
+    },
+    {
+      "chapter": 15,
+      "path": "examples/ch15/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "2571dc7233cc11a44cf3b0b44b5117ef49f00e7330db67fb7f3f17c4bbea28a8"
+    },
+    {
+      "chapter": 16,
+      "path": "examples/ch16/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "a7db9afee5631bd93dd6753160723e960cf3d09f82f17363a48dacbcb521a2fd"
+    },
+    {
+      "chapter": 16,
+      "path": "examples/ch16/management-lab.md",
+      "role": "support",
+      "target": null,
+      "sha256": "4b4edea5d00c680765a527d56b69a87e7c05a746351a037ca94355294c241e3f"
     },
     {
       "chapter": 16,
@@ -169,6 +456,27 @@
       "sha256": "a7e160fe938dd5ba1061f6685e5b3811cc2fd235e0b4707ef569c13e0607b4ac"
     },
     {
+      "chapter": 16,
+      "path": "examples/ch16/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "946cf634063bfeab2b9614029efacae37ae5308a81598c56fab76a88f462c209"
+    },
+    {
+      "chapter": 17,
+      "path": "examples/ch17/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "a80a9cf5935aac213d0090b3b0bab165eb63e6b64b3e2f7f65bd69515bdc16da"
+    },
+    {
+      "chapter": 17,
+      "path": "examples/ch17/management-lab.md",
+      "role": "support",
+      "target": null,
+      "sha256": "1396b4c07dd96a3bb75827f8b0efbf66b2cf9724ffd63be14a051c0035649751"
+    },
+    {
       "chapter": 17,
       "path": "examples/ch17/starter/server.py",
       "role": "starter",
@@ -176,11 +484,130 @@
       "sha256": "f2701afde1f454301257834f4b5a824a79763c2ec2c3e60713697069c729633e"
     },
     {
+      "chapter": 17,
+      "path": "examples/ch17/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "ac80ed48e182cff9d019a6537a7a001994ce4124f3dc554327a0d8c517ebb0fe"
+    },
+    {
       "chapter": 18,
-      "path": "examples/ch18/starter/input/tasks.csv",
-      "role": "starter",
-      "target": "input/tasks.csv",
-      "sha256": "698a3906503b66d61d1a258a19992c08a67b32f0a49b40877d73a980270123e2"
+      "path": "examples/ch18/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "21d3af14649441aa48b5131e4e7884a45d5d1fcfbfb93d2cf044e83dfd59d690"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/management-lab.md",
+      "role": "support",
+      "target": null,
+      "sha256": "fb891c167509aeb55990c7a363de65f1ed08bf3b6c414d0e6c340e2617cbc74d"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "eb910c1630f57fe310b8852222b8307be47cbc3f59fcce8a9fdf295ba93bdbf7"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/prepare_period2.py",
+      "role": "support",
+      "target": null,
+      "sha256": "46b1c45171c670de5d022f2e2e8347967a691fc3b14729ee9eeedd48b767689b"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/reference/output/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "4faf36835e94f84a0a50f054d86c6ddcd5ab729945294e680598f76f85c68ed6"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/reference/output/actions.csv",
+      "role": "support",
+      "target": null,
+      "sha256": "bb00f4d8270791aae89966c4d205659d6e4d58129841a4548003da32d4ef4101"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/reference/output/report.md",
+      "role": "support",
+      "target": null,
+      "sha256": "779e8f73431e9025bfafd3d55e01a30e712adcbacc8b368485096231aa2fc6f0"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/starter/approved-baseline.md",
+      "role": "support",
+      "target": null,
+      "sha256": "58a9e74b84dcc44b8e304d47521aaf1424deaecdd9ea94ab5caf24471b57c5d7"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/starter/input/notes.md",
+      "role": "support",
+      "target": null,
+      "sha256": "854c08dbca207bf5687bb95f7832defa724ad31296122ec3696282d63163b2df"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/starter/input/tasks.csv",
+      "role": "support",
+      "target": null,
+      "sha256": "bdb36925b85d243f6922ef7756e49910fef4a70bc33ea4f39d6e85dad53f9f1b"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/starter/task-spec.md",
+      "role": "support",
+      "target": null,
+      "sha256": "765e80dbf1f72f2a1de337381cc3b9b39e0752a21da49220fe0b9b3f985a9e97"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/starter/verify.py",
+      "role": "support",
+      "target": null,
+      "sha256": "e226a0513154da169346c875fd5e51e45ee8d7155f9332715b44f98950b6f40a"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/tasks.md",
+      "role": "support",
+      "target": null,
+      "sha256": "0edad9a57682f0bc7e5710107286f7c0f6ded750364d98c9cb257eef190dae71"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/period2/test_period2.py",
+      "role": "support",
+      "target": null,
+      "sha256": "8f080985d05ecacecc4ca4233c633d675d05c3fa4e23a049885590a21d5f5b75"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/reference/output/README.md",
+      "role": "reference",
+      "target": "output/README.md",
+      "sha256": "6b79b49f30e6fe9d4fdfc1cdfd0c100679ec5478ddcd8796d1c456f5cc79f10b"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/reference/output/actions.csv",
+      "role": "reference",
+      "target": "output/actions.csv",
+      "sha256": "a8baf64609bcfb68a3cece727fcf21c2e7eb7253cfdde0b70b6e10cb3be98bd8"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/reference/output/report.md",
+      "role": "reference",
+      "target": "output/report.md",
+      "sha256": "fe33caacfddb1c9138afcd0381eb7bc0c4d63f09d1bb435eafb10ed4ebe16bb7"
     },
     {
       "chapter": 18,
@@ -188,6 +615,13 @@
       "role": "starter",
       "target": "input/notes.md",
       "sha256": "aafb110c1930737e49baf42710a57276b6a13ea3382b7a1f67577d35cb475ac0"
+    },
+    {
+      "chapter": 18,
+      "path": "examples/ch18/starter/input/tasks.csv",
+      "role": "starter",
+      "target": "input/tasks.csv",
+      "sha256": "698a3906503b66d61d1a258a19992c08a67b32f0a49b40877d73a980270123e2"
     },
     {
       "chapter": 18,
@@ -204,32 +638,39 @@
       "sha256": "508be6ffb942cce2effb91d844ed6084aac0bf4db37a67a855dc30058d20e75a"
     },
     {
-      "chapter": 13,
-      "path": "examples/ch13/reference/fee.py",
-      "role": "reference",
-      "target": "fee.py",
-      "sha256": "dd8e763cdf77ff30d9baf448a6009a9013834756d3c65d70428d7765759ac19f"
+      "chapter": 18,
+      "path": "examples/ch18/tasks.md",
+      "role": "task",
+      "target": null,
+      "sha256": "6e7d42ab1796b9e66efd4a661bee9d930f1033d25fd3a588cce501ea44a7a4b3"
     },
     {
       "chapter": 18,
-      "path": "examples/ch18/reference/output/actions.csv",
-      "role": "reference",
-      "target": "output/actions.csv",
-      "sha256": "a8baf64609bcfb68a3cece727fcf21c2e7eb7253cfdde0b70b6e10cb3be98bd8"
+      "path": "examples/ch18/verification.md",
+      "role": "support",
+      "target": null,
+      "sha256": "eeff0b248ea7c9f509cad416ff2ddbc436d5ee338c253b40cb779ac3614b9d9f"
     },
     {
-      "chapter": 10,
-      "path": "examples/ch10/reference/summary.md",
-      "role": "reference",
-      "target": "summary.md",
-      "sha256": "3f434a6d5cab3df0ad6fa2015b8b411cb5c05faa42835af49e51bff06c31da6e"
+      "chapter": 3,
+      "path": "examples/first-task/README.md",
+      "role": "support",
+      "target": null,
+      "sha256": "9f7eb1849c2ec7321879f518b94f6d4ccade1d31bc2845204fa3e7c693d4ebf2"
     },
     {
-      "chapter": 10,
-      "path": "examples/ch10/starter/rules.md",
-      "role": "starter",
-      "target": "rules.md",
-      "sha256": "0900440a9965b5f66ea90ffff7a7f2a0d829ceb168bbca725c129f2dd4b804da"
+      "chapter": 3,
+      "path": "examples/first-task/expected.md",
+      "role": "reference",
+      "target": "expected.md",
+      "sha256": "19e28f5356df995fc5b8af8fde1b7eab4b0951e0bd197574c9247734ed09f5dc"
+    },
+    {
+      "chapter": 3,
+      "path": "examples/first-task/handoff-example.md",
+      "role": "support",
+      "target": null,
+      "sha256": "a47d0227f1794fac3adb1b6623dfdb57a2e731e8e2a05603606a8bf2f5c58647"
     },
     {
       "chapter": 3,
@@ -240,171 +681,80 @@
     },
     {
       "chapter": 3,
-      "path": "examples/first-task/expected.md",
-      "role": "reference",
-      "target": "expected.md",
-      "sha256": "19e28f5356df995fc5b8af8fde1b7eab4b0951e0bd197574c9247734ed09f5dc"
-    },
-    {
-      "chapter": 7,
-      "path": "examples/ch07/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "af10c2b926a75decf2e09ad3d1c2a6b75db7c3af1b9997cabc636e66d606e799"
-    },
-    {
-      "chapter": 8,
-      "path": "examples/ch08/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "d1da3afe01e20f54f440d68fb94c433b6574b966ba503bce332b7c84c65506be"
-    },
-    {
-      "chapter": 9,
-      "path": "examples/ch09/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "b17b7df038d9b929300d76e6e075dea7c2b042acfc9a2a7b7adaa37ef3130bc1"
-    },
-    {
-      "chapter": 10,
-      "path": "examples/ch10/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "ecc50d5f435cc395f86effc1bc5bb85221d0b7087a5b23ce8ae17ad7148e0172"
-    },
-    {
-      "chapter": 11,
-      "path": "examples/ch11/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "23d3465e979b8016ed60933a6fd53dda177c175cea632e286b1171d1111867d3"
-    },
-    {
-      "chapter": 12,
-      "path": "examples/ch12/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "2cca10b237ee46c085d9e1a9d968ce1206cd8fd3aaf58cda71c2f386162c1c32"
-    },
-    {
-      "chapter": 3,
       "path": "examples/first-task/tasks.md",
       "role": "task",
       "target": null,
-      "sha256": "ccbe2041b5a1f56384ad4e093fa0bd41189c74eee9f75affad22c83fa9aac4f2"
+      "sha256": "09046642f471656b4f1ff3cdbef0c80065c0ba2a75a39c612bee89a0c3c8deb2"
     },
     {
-      "chapter": 4,
-      "path": "examples/ch04/tasks.md",
-      "role": "task",
+      "chapter": null,
+      "path": "templates/README.md",
+      "role": "support",
       "target": null,
-      "sha256": "fe15e8f30ddb2bbf0a911bf4c78b53767aba0a6b05938b94f271afacf39d6a65"
-    },
-    {
-      "chapter": 6,
-      "path": "examples/ch06/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "9bc458b7a6a925a9035882ed8ee75808a92921b1583493d2049e889f5e39f2d0"
-    },
-    {
-      "chapter": 13,
-      "path": "examples/ch13/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "2ff41fe65ef1f50fa5b87e3eb34b45b458b1eb432312adcd190552919248738b"
-    },
-    {
-      "chapter": 14,
-      "path": "examples/ch14/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "cb46e1ba2046e69e7c5ad721923c9f9a401e67d3bd2744c19228fcd9e6f7c0ef"
-    },
-    {
-      "chapter": 15,
-      "path": "examples/ch15/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "eca32a0a34e385ce13be8df308fe42558b0c3f99cd3950727bede0cbcbeef093"
-    },
-    {
-      "chapter": 18,
-      "path": "examples/ch18/tasks.md",
-      "role": "task",
-      "target": null,
-      "sha256": "42c8a5de6f18b9ad4dd37b720718d7452f70d55992b66bdc1460597130380f4f"
+      "sha256": "d6a3529c0410718bc6061861e5a3e9bac2bbd6b273f9f0767ad74394b2c008ec"
     },
     {
       "chapter": 1,
       "path": "templates/ch01-task.md",
       "role": "task",
       "target": null,
-      "sha256": "07983769f253210cd921d4d9de209c9b21d56bad654c34214883c23bd8eca10d"
+      "sha256": "8bdd3a3e17214bb70ace6d8f10022f43f1d3520f54e53b1521743786f6600e74"
     },
     {
       "chapter": 2,
       "path": "templates/ch02-task.md",
       "role": "task",
       "target": null,
-      "sha256": "929d075c9551288b211ccccd1d6011f61e538bf13e7e35aac86eada92f391107"
-    },
-    {
-      "chapter": 5,
-      "path": "templates/ch05-task.md",
-      "role": "task",
-      "target": null,
-      "sha256": "327482aa0a0012dccd2838d1a0c35c84db1a6f5944e537b53a0ce41415a97c70"
+      "sha256": "2a7dd2985422e814ddcd7e17215b677f9fe3b62c85cfde1161116b36f806fc77"
     },
     {
       "chapter": 5,
       "path": "templates/ch05-messages.md",
       "role": "support",
       "target": null,
-      "sha256": "38e6b82071d0374014ec9293da05809b2ad7a1d32a840a88968e1bfd4c533955"
+      "sha256": "a8f7858f5e5261c4985bc96adc1a1423416b9b54d07c12bccca01f75f44ccfaa"
     },
     {
-      "chapter": 16,
-      "path": "examples/ch16/tasks.md",
+      "chapter": 5,
+      "path": "templates/ch05-task.md",
       "role": "task",
       "target": null,
-      "sha256": "751cbe790ac89fe6755f6551a6a44a179edaf626768ba4da05ff9574de56b73c"
+      "sha256": "9bfa4f1efb4812fd6951802bdd0d70910b18158e24450048b070dabaf4b2e4e8"
     },
     {
-      "chapter": 17,
-      "path": "examples/ch17/tasks.md",
-      "role": "task",
+      "chapter": null,
+      "path": "templates/management/acceptance-handoff.md",
+      "role": "support",
       "target": null,
-      "sha256": "5eeb8a7a61efffb02fed72a865801fbf745df7ca057a1f9d7a99c22351e80edf"
+      "sha256": "d0c125af85ccc3d0778396715510791c3ec06f4155f2803408431bb5e8f6add0"
     },
     {
-      "chapter": 18,
-      "path": "examples/ch18/reference/output/report.md",
-      "role": "reference",
-      "target": "output/report.md",
-      "sha256": "fe33caacfddb1c9138afcd0381eb7bc0c4d63f09d1bb435eafb10ed4ebe16bb7"
+      "chapter": null,
+      "path": "templates/management/adoption-operations.md",
+      "role": "support",
+      "target": null,
+      "sha256": "87e2cf0a40976e56cff3e859eb950db696780e1a1fd8f7b2bc67b7abec523fc5"
     },
     {
-      "chapter": 18,
-      "path": "examples/ch18/reference/output/README.md",
-      "role": "reference",
-      "target": "output/README.md",
-      "sha256": "6b79b49f30e6fe9d4fdfc1cdfd0c100679ec5478ddcd8796d1c456f5cc79f10b"
+      "chapter": null,
+      "path": "templates/management/issues-changes.md",
+      "role": "support",
+      "target": null,
+      "sha256": "32779f025070d452b7ff56b802a81a7c9944cfde836864cd7b671ff28a666500"
     },
     {
-      "chapter": 6,
-      "path": "examples/ch06/AGENTS.md",
-      "role": "starter",
-      "target": "AGENTS.md",
-      "sha256": "4182e2b5ecc9e503ad389fbe93e83df45dc8eebeecc062af1d84c6ccd55b25a1"
+      "chapter": null,
+      "path": "templates/management/task-authorization.md",
+      "role": "support",
+      "target": null,
+      "sha256": "21aa09a3a5ba9745e45ea3a8fb4308ea749207e3d42738abcb42389d84297123"
     },
     {
-      "chapter": 12,
-      "path": "examples/ch12/AGENTS.md",
-      "role": "starter",
-      "target": "AGENTS.md",
-      "sha256": "071200f15c1defe319aa1dfecd6cf25c34e2989fc2bda2f7d15e9c11698d5582"
+      "chapter": null,
+      "path": "templates/task-spec.md",
+      "role": "support",
+      "target": null,
+      "sha256": "09f8e2dda17c9ce52afc7bb0670e0cd912fdf90607028cd1eefeb314d6e1269f"
     }
   ],
   "known_gaps": []

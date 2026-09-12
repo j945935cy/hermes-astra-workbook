@@ -24,4 +24,9 @@ outputs/
 !examples/ch18/reference/output/actions.csv
 !examples/ch18/reference/output/report.md
 !examples/ch18/reference/output/README.md
+# Fixed period-2 author references; no generated run directories
+!examples/ch18/period2/reference/output/
+!examples/ch18/period2/reference/output/actions.csv
+!examples/ch18/period2/reference/output/report.md
+!examples/ch18/period2/reference/output/README.md
 .DS_Store
